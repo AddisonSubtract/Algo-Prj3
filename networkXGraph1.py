@@ -25,4 +25,10 @@ print("Node A BFS:", list(nx.bfs_edges(G, source='A')),'\n')
 print("Node H DFS:", list(nx.dfs_edges(G, source='H')),'\n')
 print("Node H BFS:", list(nx.bfs_edges(G, source='H')),'\n')
 
+#Question b
+print("Node A DFS:", list(nx.dfs_edges(G, source='A', depth_limit=2)),'\n')
+print("Node A BFS:", list(nx.bfs_edges(G, source='A', depth_limit=2)),'\n')
+
 #Question c
+print("Node A DFS:", list(nx.dfs_edges(G, source='A', depth_limit=10)),'\n')
+print("Node A BFS:", list(nx.bfs_edges(G, source='A', depth_limit=10)),'\n')
