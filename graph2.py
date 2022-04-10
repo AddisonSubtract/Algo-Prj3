@@ -1,6 +1,4 @@
 import networkx as nx
-import matplotlib.pyplot as plt
-
 G = nx.DiGraph()
 G.add_nodes_from(range(1,13))
 G.add_edge(1,3)
@@ -19,4 +17,3 @@ for c in SCC:
     print(c)
 print(SCC)
 
-plt.show()
